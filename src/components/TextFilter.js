@@ -3,7 +3,7 @@ import {TextFacets} from '@unbxd-ui/react-search-sdk'
 
 const FacetItemComponent = ({ itemData, onClick }) => {
     const { name, count, isSelected } = itemData;
-    console.log(name,count,isSelected)
+
     const handleClick = () => {
         onClick(itemData);
     };
